@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tangerine&display=swap");
 
-/* CSS * Selector, Select all elements */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@
 html {
   scroll-behavior: smooth;
 }
-/* Navbar Styling*/
+
 .navbar {
   position: fixed;
   width: 100%;
@@ -23,7 +23,7 @@ html {
 }
 .navbar.sticky {
   padding: 2px 0;
-  background-color: crimson;
+  background-color: black;
 }
 .max-width {
   max-width: 1300px;
@@ -36,11 +36,15 @@ html {
   justify-content: space-between;
 }
 .navbar .logo a {
-  font-size: 30px;
+  font-size: 50px;
   font-weight: 500;
   color: #fff;
-  font-family: "Pacifico";
+  font-family: "Tangerine";
   transition: all 0.3s ease;
+}
+
+.navbar .logo a span {
+  color: cyan;
 }
 
 .navbar .logo a span {
